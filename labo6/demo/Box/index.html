@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vives</title>
+    <style>
+        /* Er zijn 2 soorten elementen: Block en inline */
+        h1 {
+          background-color: red;
+        }
+
+        p {
+          background-color: blue;
+        }
+
+        span {
+          background-color: yellow;
+        }
+
+        .block {
+            margin-left: 20px;
+            border: 2px solid black;
+            padding-left: 20px;
+            width: 200px;
+        }
+
+        .blockPar {
+            margin: 50px 50px 50px 50px;
+            /* margin: 50px;  all margin - top, right, bottom, left */
+            width: 50%;
+        }
+
+        .spanCenter {
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px; /* no width on inline elem */
+            display: inline-block; /* Zo maak je er een een block element van */
+        }
+    </style>
+</head>
+<body>
+  <h1 class="block">Vives</h1>
+  <p class="blockPar">Vives heeft verschillende campussen</p>
+
+  <span class="spanCenter">CCS</span>
+</body>
+</html>

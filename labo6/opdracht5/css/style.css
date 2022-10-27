@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color: white;
+    color: darkblue;
+}
+
+h1 {
+    font-variant: all-petite-caps;
+    color: red;
+}
+
+a:hover {
+    border: 1px solid black;
+}
+
+a:before {
+    /*background:url('./../img/hyperlink.png') no-repeat;*/
+}
+
+.hyperlinkImage {
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-image: url('./../img/hyperlink.png');
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.stippeltjesrand {
+    border: 1px dotted black;
+}
