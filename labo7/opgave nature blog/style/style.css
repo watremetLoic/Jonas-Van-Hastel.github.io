@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #474747;
+    color: aquamarine;
+    padding: 3px;
+    color: black;
+}
+
+nav a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+#page {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#top-header {
+    background-image: url("../img/header.jpg");
+    height: 100px;
+    color: white;
+}
+
+#top-header h1 {
+    font-size: 2em;
+    padding: 10px;
+}
+
+article {
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 5px;
+}
+
+article header h1 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
