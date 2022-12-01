@@ -96,6 +96,7 @@ main .gallery {
     padding: 5px;
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: space-around;
 }
 
 main .gallery img {
