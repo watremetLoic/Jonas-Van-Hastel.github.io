@@ -1,0 +1,21 @@
+section {
+    background: gray;
+    border: 2px solid black;
+    color: white;
+}
+
+div {
+    height: 200px;
+    width: 300px;
+
+}
+
+.coloredBlock1 {
+    background-color: Red;
+    display: inline-block;
+}
+
+.coloredBlock2 {
+    background-color: Blue;
+    display: inline-block;
+}

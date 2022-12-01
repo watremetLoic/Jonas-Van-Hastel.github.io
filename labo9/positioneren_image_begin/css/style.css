@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 1.25em sans-serif;
+}
+
+main {
+    padding: 5px;
+}
+
+/* BEGIN MAIN */
+main > article {
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 240px;
+    margin: 0 10px 10px;
+}
+
+main > article:nth-child(odd) img {
+    float: left;
+}
+
+main > article:nth-child(even) img {
+    float: right;
+}
+
+/* END MAIN */
+
