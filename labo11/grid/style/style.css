@@ -59,20 +59,16 @@ section {
         grid-template-rows: repeat(6, 1fr);
     }
 
-    .item-9 {
-        grid-area: 1/1;
-    }
-
     .item-1 {
-        display: none;
+        grid-area: 6/1 /7/ 3;
     }
 
     .item-3 {
-        grid-area: 4/1/5/3;
+        grid-area: 4 /1/5/3;
     }
 
     .item-6 {
-        display: none;
+        grid-area: 5/1/6/3;
     }
 }
 

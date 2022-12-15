@@ -1,36 +1,47 @@
-.container{
-
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.container .block{
-    padding:20px;
+.container .block {
+    background-color: #007e7e;
+    padding: 20px;
     color: white;
     font-size: 4em;
-    font-weight:bold;
-    text-align:center;
+    font-weight: bold;
+    text-align: center;
 }
 
-.block.block1{
-
- }
-.block.block2{
-
+.block.block1 {
+    grid-area: 1/1/2/4;
 }
-.block.block3{
 
+.block.block2 {
+    grid-area: 2/1/4/2;
 }
-.block.block4{
 
+.block.block3 {
+    grid-area: 2/2;
 }
-.block.block5{
 
+.block.block4 {
+    grid-area: 2/3;
 }
-.block.block6{
 
+.block.block5 {
+    grid-area: 3/2/4/4;
 }
-.block.block7{
 
+.block.block6 {
+    grid-area: 4/1/5/3;
 }
-.block.block8{
 
+.block.block7 {
+    grid-area: 4/3;
+}
+
+.block.block8 {
+    grid-area: 5/1/4/4;
 }
