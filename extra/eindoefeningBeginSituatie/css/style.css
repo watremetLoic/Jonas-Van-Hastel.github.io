@@ -1,0 +1,45 @@
+.grid {
+    display: grid;
+    grid-template-areas: 'header' 'navigation' 'main' 'aside-1' 'footer';
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    font-size: 2.5em;
+    text-align: center;
+    grid-template-columns: 100%;
+}
+
+@media screen and (min-width: 786px) {
+    .grid {
+        min-height: 800px;
+        grid-template-areas:
+    'header header header header header'
+    '. navigation main aside-1 .'
+    'footer footer footer footer footer';
+    }
+}
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+}
