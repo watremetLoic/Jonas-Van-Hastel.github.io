@@ -12,7 +12,6 @@ const update = () => {
     const colorBox = document.getElementById("txtViewColor")
     const sliders = document.getElementsByClassName("slider");
     const labels = document.getElementsByClassName("label");
-    let slidersValue = {};
     for (let i = 0; i < sliders.length; i++) {
         labels[i].innerHTML = (sliders[i].value * 2.55).toFixed(0);
     }
